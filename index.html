@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Personal Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section class="banner" id="sec">
+		<input type="checkbox" name="">
+		<header>
+			<a href="#" class="logo">TITI</a>
+			<div id="toggle" onclick="toggle()"></div>
+		</header>
+		<div class="content">
+			<h2>Hello World,<br>I'm<span>Tititof Irakoze</span></h2>
+			<p>
+				I am a Burundi-based coder, I pretty much touch at anything related to programming, currently I mainly focus on dynamicaly web site and some application that use Php for back end and html css for style. I try do my best for making my codes be easy understable for everyone.
+			</p>
+			<a href="#">Know More</a>
+		</div>
+		<ul class="sci">
+			<li><a href="#"><img src="img/facebook.png"></a></li>
+			<li><a href="#"><img src="img/linkedin.png"></a></li>
+			<li><a href="#"><img src="img/twitter.png"></a></li>
+		</ul>
+	</section>
+	<div id="navigation">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Service</a></li>
+			<li><a href="#">Portfolio</a></li>
+			<li><a href="#">Contacts</a></li>
+		</ul>
+	</div>
+	<script type="text/javascript">
+		function toggle(){
+			var sec = document.getElementById('sec');
+			var nav = document.getElementById('navigation');
+			sec.classList.toggle('active');
+			nav.classList.toggle('active');
+		}
+	</script>
+</body>
+</html>
