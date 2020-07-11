@@ -97,13 +97,13 @@ header #toggle:after
 	width: 100%;
 	min-height: 100vh;
 	padding: 100px;
-	background: url(img/bg.png);
-	background-size: cover; 
+	background: url(img/bg.jpeg);
+	background-size: cover;
 	display: flex;
 	align-items: center;
-	transition: 0.5s; 
+	transition: 0.5s;
 	z-index: 2;
-	
+
 }
 .banner.active
 {
